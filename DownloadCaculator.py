@@ -24,6 +24,8 @@
 # Often bandwidth is given in megabits (Mb) per second whereas file size 
 # is given in megabytes (MB).
 
+#My Solution, Feel free to optimize it. Thanks a lot 
+
 def convert_to_bits(size, unit):
     powers = [['k', 10], ['M', 20], ['G', 30], ['T', 40], ['B', 3]]
     unit = list(unit)
